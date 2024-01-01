@@ -1,3 +1,4 @@
+import java.util.Random;
 
 public class Person {
 	private String identity;
@@ -29,5 +30,5 @@ public class Person {
 	public void setNationality(String nationality) {
 		this.nationality = nationality;
 	}
-
+	
 }

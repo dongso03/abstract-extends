@@ -6,7 +6,7 @@ public class Customer extends Person {
 	 public Customer( String nationality) {
 	        super(nationality);
 	        
-	        this.wallet = new Random().nextInt(35001) + 15000;
+	        this.wallet = new Random().nextInt(100000) + 10000;
 	    }
 	public int getWallet() {
 		return wallet;
